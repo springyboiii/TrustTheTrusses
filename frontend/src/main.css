@@ -1,0 +1,140 @@
+html {
+  background-color: rgb(45, 138, 219);
+  text-align: center;
+  color: white;
+}
+
+body {
+  margin: 0;
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+  "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  sans-serif;
+  overscroll-behavior: none;
+}
+
+@font-face {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("assets/fonts/nunito-v16-latin-regular.woff2") format("woff2");
+}
+
+.logo {
+  display: block;
+  width: auto;
+  height: auto;
+  margin: auto;
+  padding: 20% 0% 0% 0%;
+  /* padding-bottom: 0%;
+  border:solid;
+  border-width: 5px; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("./assets/images/Logo1.png");
+  /* background-size: 250px 300px; */
+}
+.h1{
+  padding-top: 0%;
+}
+
+svg {
+  fill: none;
+  stroke: white;
+  stroke-width: 4px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  opacity: 0.2;
+  
+  stroke-dashoffset: 0;
+  stroke-dasharray: 320;
+  
+  transition: all 1s cubic-bezier(0.77, 0, 0.175, 1);
+  position: absolute;
+  top: 6px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+svg:hover {
+  transition-duration: .7s;
+  stroke-dashoffset: -320;
+  stroke-dasharray: 320;
+}
+
+a {
+  color: white;
+  display: inline-flex;
+  position: relative;
+  text-decoration: none;
+  width: 150px;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.result {
+  height: 20px;
+  line-height: 20px;
+  margin: 1.5rem auto;
+}
+.input-box .btn {
+  width: 60px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 3px;
+  border: none;
+  margin: 0 0 0 20px;
+  padding: 0 8px;
+  cursor: pointer;
+}
+.input-box .btn:hover {
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  color: #333333;
+}
+
+.input-box .input {
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 10px;
+  background-color: rgba(240, 240, 240, 1);
+  -webkit-font-smoothing: antialiased;
+}
+
+.input-box .input:hover {
+  border: none;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.input-box .input:focus {
+  border: none;
+  background-color: rgba(255, 255, 255, 1);
+}
