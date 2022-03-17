@@ -1,0 +1,1 @@
+redirection not working in windowed mode

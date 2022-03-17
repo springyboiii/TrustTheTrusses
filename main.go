@@ -42,6 +42,7 @@ func main() {
 		OnStartup:         app.startup,
 		OnDomReady:        app.domReady,
 		OnShutdown:        app.shutdown,
+
 		Bind: []interface{}{
 			app,
 		},
@@ -49,7 +50,7 @@ func main() {
 		Windows: &windows.Options{
 			WebviewIsTransparent: true,
 			WindowIsTranslucent:  true,
-			DisableWindowIcon:    true,
+			DisableWindowIcon:    false,
 		},
 		Mac: &mac.Options{
 			TitleBar:             mac.TitleBarHiddenInset(),
